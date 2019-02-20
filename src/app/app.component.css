@@ -5,6 +5,7 @@ h1{
     position: relative;
     width: 100%;
     height: auto;
+    background-color: black;
 }
 
 .tool-bar-align a{
@@ -13,11 +14,8 @@ h1{
     bottom: 10px;
 }
 
-.tool-bar-align form{
-    text-align: center;
-    font-size: 70%;
-    margin: 0 auto;
-
+.tool-bar-align h1{
+    color: white;
 }
 
 .inner-row{
