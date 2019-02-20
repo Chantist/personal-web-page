@@ -1,0 +1,63 @@
+h1{
+    font-size: 200%;
+}
+.tool-bar-align{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.tool-bar-align a{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.tool-bar-align form{
+    text-align: center;
+    font-size: 70%;
+    margin: 0 auto;
+
+}
+
+.inner-row{
+    margin-top: -35px;
+}
+input{
+    margin-right: 10px;
+}
+
+ #label1, #label2{
+    position: relative;
+}
+#label1{
+left: 50px;
+}
+
+#label2{
+left: 150px;
+}
+
+.example-container {
+  text-align: center;
+  width: 400px;
+  height: 100%;
+  margin: 10px;
+}
+
+.example-container button {
+   float: right;
+   height: 100%;
+   width: 50%;
+  }
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #555; */
+  padding: 20px;
+}
+
