@@ -13,13 +13,13 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/dev-portfolio",
-            "index": "src/index.html",
-            "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
+            "outputPath": "dist",
+            "index": "dist/index.html",
+            "main": "dist/main.ts",
+            "polyfills": "dist/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
+              "dist/favicon.ico",
               "src/assets"
             ],
             "styles": [
