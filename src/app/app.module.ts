@@ -16,9 +16,16 @@ import {
   MatToolbarModule
 } from "@angular/material";
 
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterComponent,
+    HeaderComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -32,7 +39,7 @@ import {
     MatListModule,
     MatToolbarModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  providers: []
 })
 export class AppModule { }
