@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+#tbar{
+    /* position: fixed;  */
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 80px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    z-index: 1;
+}
+
+#tbar *{ 
+    position: relative;
+    color: black;
+   }
+
+   #tbar h1{ 
+    color: rgba(18, 8, 110, 0.75);
+   }
+
+#tbar nav{
+    right: 30px;  
+    position: absolute;
+}
+
+#tbar a{
+text-decoration: none;
+font-size: 20px;
+
+}
+
+#tbar button{
+    font-family: 'ZCOOL XiaoWei', serif;
+    background:none;
+    margin-right: 5px;
+    font-style: none; 
+} 
+ nav button:hover{
+    border-bottom: 2px rgba(189, 212, 55, 0.75) solid;
+}
+
+nav a:active{
+   opacity: .5;
+}
+
+.trow{
+    padding-left: 20px;
+    margin: -15px;
+}
+.trow2{
+    padding-top: 0px;
+    margin-bottom: .5px;
+}
+
