@@ -3,12 +3,12 @@
       <mat-toolbar-row class="trow trow1">
           <h1>Syshelle Chantilou</h1>
             <nav>
-              <button mat-button><a routerLink='.'>Home</a></button>
-              <button mat-button><a routerLink='.'>Projects</a></button>
-              <button mat-button><a routerLink='.'>Contact</a></button>
+              <button mat-button routerLink='.'>Home</button>
+              <button mat-button routerLink='.'>Projects</button>
+              <button mat-button (click)="copyToClipboard()">Contact</button>
             </nav>
           </mat-toolbar-row>
         <mat-toolbar-row class="trow trow2">
-           <p> FullStack Developer & Software Instructor/Mentor</p>
+           <p> FullStack Developer & Software Instructor / Mentor</p>
      </mat-toolbar-row>
       </mat-toolbar>
