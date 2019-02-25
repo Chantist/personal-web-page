@@ -13,15 +13,15 @@ export class HeaderComponent implements OnInit {
   constructor(private snackBar: MatSnackBar) {}
 
   openSnackBar() {
-    this.snackBar.open("My Email has been copied to clipboard",  ":)",
-    {duration: 2000});
+    this.snackBar.open("My email has been copied to clipboard",  ":)",
+    {duration: 3000 , verticalPosition: 'top'});
   }
 
 
  copyToClipboard(){
       document.addEventListener('copy', (event: ClipboardEvent) => {
         event.preventDefault();
-        let evt = event.clipboardData || window["clipboardData"];
+        let evt = event.clipboardData || window['clipboardData'];
         evt.setData('text/plain', (this.email));
         document.removeEventListener('copy', null);
       });

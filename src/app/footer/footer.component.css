@@ -1,8 +1,8 @@
 footer {
-   background-color: aqua;
+   margin-top: 2%;
+   background-color: rgb(129, 141, 132); 
 }
 
 p{
- color: black;
  text-align: center;
 }
