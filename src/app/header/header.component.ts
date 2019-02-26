@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
   constructor(private snackBar: MatSnackBar) {}
 
   openSnackBar() {
-    this.snackBar.open("My email has been copied to clipboard",  ":)",
+    this.snackBar.open("My email is copied to your clipboard",  ":)",
     {duration: 3000 , verticalPosition: 'top'});
   }
 
