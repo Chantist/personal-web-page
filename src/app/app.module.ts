@@ -10,16 +10,14 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import {
   MatButtonModule,
   MatNativeDateModule,
-  MatIconModule,
+  MatButtonToggleModule,
   MatSidenavModule,
-  MatListModule,
   MatToolbarModule,
   MatSnackBarModule
 } from "@angular/material";
 
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
-
 
 @NgModule({
   declarations: [
@@ -35,9 +33,8 @@ import { HeaderComponent } from './header/header.component';
     CommonModule,
     MatButtonModule,
     MatNativeDateModule,
-    MatIconModule,
+    MatButtonToggleModule,
     MatSidenavModule,
-    MatListModule,
     MatToolbarModule,
     MatSnackBarModule
   ],

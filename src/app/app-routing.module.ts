@@ -3,11 +3,11 @@ import { Routes, RouterModule } from '@angular/router';
 
 import{ HomeComponent} from './home/home.component'
 import { ProjectsComponent } from './projects/projects.component';
+import { MatListModule, MatGridListModule} from '@angular/material';
 
 const routes: Routes = [
-  { path: '**', component: HomeComponent },
   { path: 'projects', component: ProjectsComponent },
-
+  { path: '**', component: HomeComponent },
 ];
 
 @NgModule({
@@ -16,6 +16,8 @@ const routes: Routes = [
     ProjectsComponent
   ],
   imports: [
+    MatListModule,
+    MatGridListModule,
     RouterModule.forRoot(routes, { useHash: true })
   ],
   exports: [RouterModule],

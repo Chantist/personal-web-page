@@ -1,9 +1,10 @@
 #tbar{
+    z-index: 1;
     top: 0; 
     background-color: white;
      position: fixed; 
      width: 100vw;
-     height: 70px; 
+     height: 80px; 
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -11,11 +12,15 @@
     background-color: white;
 }
 
-h1{ 
+#menu-btn{
+    height: 100%;
+}
+
+h2{ 
     font-family: 'ZCOOL XiaoWei', serif;
-    color: rgba(18, 8, 110, 0.75);
+    color: rgb(48,48,48);;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 #tbar nav{
@@ -23,24 +28,28 @@ h1{
     position: absolute;
 }
  
+#email-icon {
+font-size: 25px;
+color: rgb(32, 136, 55);
+}
 
- nav button{
-    text-align: center;
-    margin-left: 8px;
-    font-size: 17px;
+.no-backgrd mat-button-toggle, mat-button-toggle-group{
+    border: none;  
+}
+mat-button-toggle{
+    font-size: 16px;
 } 
 
- nav button:hover{
-    padding: 15px;
-    border-radius: 25%;
-}
- 
+  #sidenav-cotainer{
+background-color: gray
+  }
 
 .trow1{
      margin: -8px 0px -20px 0px;
 }
 
 .trow2{
-    margin: -20px 0px -20px 0px;
+    margin: -18px 0px -20px 0px;
     font-size: 17px;
+    color: rgb(28, 119, 48);
 } 

@@ -1,15 +1,20 @@
-<div id= 'tbar'>
-    <mat-toolbar>
-      <mat-toolbar-row class="trow1">
-          <h1>Syshelle Chantilou</h1>
-            <nav>
-              <button mat-button routerLink='.'>Home</button>
-              <button mat-button routerLink='.'>Projects</button>
-              <button mat-button (click)="copyToClipboard()">Contact</button>
-            </nav>
-          </mat-toolbar-row>
-        <mat-toolbar-row class='trow2'>
-           <p> Full Stack Developer & Software Instructor / Mentor</p>
-     </mat-toolbar-row>
-      </mat-toolbar>
-      </div>
+<div id="tbar">
+  <mat-toolbar>
+    <mat-toolbar-row class="trow1">
+      <h2>Syshelle Chantilou</h2>
+      <nav class="no-backgrd">
+        <mat-button-toggle-group #group="matButtonToggleGroup">
+        <mat-button-toggle class="no-backgrd" routerLink=".">Home</mat-button-toggle>
+        <mat-button-toggle  routerLink=".">Projects</mat-button-toggle>
+        </mat-button-toggle-group>
+        <button mat-button (click)="copyToClipboard()"><i id="email-icon" class="fas fa-envelope"></i></button>
+      </nav>
+    </mat-toolbar-row>
+    <mat-toolbar-row class="trow2">
+      <p>Full Stack Developer / Software Instructor</p>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</div>
+
+
+
